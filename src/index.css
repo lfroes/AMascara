@@ -1,13 +1,56 @@
-body {
-  margin: 0;
-  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
-    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
-    sans-serif;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@font-face {
+  font-family: "V Rising";
+  src: local("V Rising"),
+    url("./fonts/nocturneserif_regular.woff2") format("truetype");
+  font-weight: bold;
 }
 
-code {
-  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
-    monospace;
+@font-face {
+  font-family: "VR Secondary";
+  src: local("VR Secondary"),
+    url("./fonts/goudytrajan_regular.woff2") format("truetype");
+  font-weight: bold;
+}
+
+
+* {
+  font-family: "V Rising";
+}
+
+.button {
+  background-image: url("https://cdn.playvrising.com/web2/images/button_cta.png");
+  width: 272px;
+  height: 45px;
+  font-size: 20px;
+  font-family: "VR Secondary";
+}
+
+.glow {
+    animation: glow 1.2s ease-out infinite alternate
+}
+
+@keyframes glow {
+  0% {
+    border-color: #c52443;
+    box-shadow: 0 0 5px rgb(197 36 67 / 20%), inset 0 0 5px rgb(197 36 67 / 10%);
+  }
+
+  100% {
+    border-color: #c52443;
+    box-shadow: 0 0 20px rgb(197 36 67 / 80%),
+      inset 0 0 10px rgb(197 36 67 / 60%);
+  }
+}
+
+
+@media (min-width: 1368px) {
+    .App {
+        background-image: url("https://cdn.playvrising.com/web2/images/build/background.png");
+        background-repeat: no-repeat;
+        background-position: right;
+    }
 }
