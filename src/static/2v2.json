@@ -1,0 +1,10 @@
+{
+    "name": "Servidor 2v2",
+    "description": "Venha em dupla enfrentar os desafios e se tornar uma lenda no V Rising!",
+    "config": {
+        "clanSize": "2",
+        "fullLoot": true,
+        "RaidTimeWeekday": "19:00 as 23:00",
+        "RaidTimeWeekend": "19:00 as 23:00"
+    }
+}

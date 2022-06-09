@@ -1,0 +1,10 @@
+{
+    "name": "Servidor 1v1",
+    "description": "Servidor de 1v1 para você se aventurar contra os outros e se tornar uma lenda!",
+    "config": {
+        "clanSize": "1",
+        "fullLoot": true,
+        "RaidTimeWeekday": "19:00 as 23:00",
+        "RaidTimeWeekend": "19:00 as 23:00"
+    }
+}

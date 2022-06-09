@@ -1,0 +1,10 @@
+{
+    "name": "Servidor 4v4 (Competitivo)",
+    "description": "Venha lutar pela gloria! Servidor competitivo com premiação para o clã vencedor! Entre e vença ou nem tente!",
+    "config": {
+        "clanSize": "4",
+        "fullLoot": true,
+        "RaidTimeWeekday": "19:00 as 23:00",
+        "RaidTimeWeekend": "19:00 as 23:00"
+    }
+}

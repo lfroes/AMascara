@@ -46,9 +46,14 @@
   }
 }
 
+html, body {
+  height: 100%;
+  overflow-x: hidden;
+}
+
 
 @media (min-width: 1368px) {
-    .App {
+    .soon-component-outside {
         background-image: url("https://cdn.playvrising.com/web2/images/build/background.png");
         background-repeat: no-repeat;
         background-position: right;
